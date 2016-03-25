@@ -10,69 +10,48 @@
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_front_heading"
         android:id="@+id/apps"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_marginTop="@dimen/button_spacing"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="@dimen/heading_size" />
+        android:textSize="@dimen/heading_size" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/spotify"
         android:id="@+id/spotify"
-        android:layout_below="@+id/apps"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/button_spacing" />
+        android:layout_below="@+id/apps" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/scores"
         android:id="@+id/scores"
-        android:layout_marginTop="@dimen/button_spacing"
-        android:layout_below="@+id/spotify"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/spotify" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/library"
         android:id="@+id/library"
-        android:layout_marginTop="@dimen/button_spacing"
-        android:layout_below="@+id/scores"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/scores" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/build"
         android:id="@+id/build"
-        android:layout_marginTop="@dimen/button_spacing"
-        android:layout_below="@+id/library"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/library" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="XYZ Reader"
         android:id="@+id/xyz"
-        android:layout_marginTop="@dimen/button_spacing"
-        android:layout_below="@+id/build"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/build" 
+        style="@style/applicationStyle" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/capstone"
         android:id="@+id/capstone"
-        android:layout_marginTop="@dimen/button_spacing"
-        android:layout_below="@+id/xyz"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/xyz" 
+        style="@style/applicationStyle" />
 
 </RelativeLayout>
